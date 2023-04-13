@@ -47,6 +47,8 @@ export default function App() {
             disabled={!request}
             onPress={() => {
               promtAsync();
+              accessToken();
+              
             }}
           >
             <Image source={require("./btn.png")} style={{ width: 300, height: 40 }} />
